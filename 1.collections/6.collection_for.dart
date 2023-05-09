@@ -1,6 +1,4 @@
 void main() {
-  var addblue = true;
-  var addred = false;
   final extraColors = ['grey', 'brown'];
   final colors = [
     'grey',
