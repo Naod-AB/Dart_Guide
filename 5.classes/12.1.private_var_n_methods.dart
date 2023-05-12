@@ -11,7 +11,7 @@
 //   }
 // }
 
-import '12.1.private_class.dart';
+import '12.2.private_class.dart';
 
 void main() {
   final account1 = BankAccount(100);
