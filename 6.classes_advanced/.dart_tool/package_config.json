@@ -3,21 +3,21 @@
   "packages": [
     {
       "name": "collection",
-      "rootUri": "file:///C:/Users/User/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.1",
+      "rootUri": "file:///C:/Users/User/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.19.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "equatable",
-      "rootUri": "file:///C:/Users/User/AppData/Local/Pub/Cache/hosted/pub.dev/equatable-2.0.5",
+      "rootUri": "file:///C:/Users/User/AppData/Local/Pub/Cache/hosted/pub.dev/equatable-2.0.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/User/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///C:/Users/User/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.17.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.5"
     },
     {
       "name": "pedantic",
@@ -32,7 +32,9 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-05-12T09:19:16.895836Z",
   "generator": "pub",
-  "generatorVersion": "2.19.6"
+  "generatorVersion": "3.8.1",
+  "flutterRoot": "file:///C:/Src/flutter",
+  "flutterVersion": "3.32.1",
+  "pubCache": "file:///C:/Users/User/AppData/Local/Pub/Cache"
 }
