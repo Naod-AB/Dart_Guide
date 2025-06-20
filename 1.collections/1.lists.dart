@@ -5,6 +5,8 @@ void main() {
   countires[0];
   countires[1] = 'Rome';
 
+  countires.map((e) => print(e));
+
   for (var country in countires) {
     print(country);
   }
@@ -28,11 +30,11 @@ void main() {
   countires.contains('UK');
   countires.indexOf('UK'); // if item is not found it returns -1
 
-// Var, final , const
+  // Var, final , const
   final euCountires = <String>['Italy', 'UK', 'Russia'];
   // euCountires = ['France']; // this will not work with const nor final
 
   euCountires[1] =
       'France'; // this can be used to modify data even on declearing final
-  //in const this above will not work but the error is catched on runtime
+  //*in const this above will not work but the error is catched on runtime
 }

@@ -3,18 +3,20 @@ void main() {
   var countires = {'Italy', 'UK', 'Russia'};
   countires.elementAt(0); // calling by index in a set
   countires.add('Germany');
-  countires
-      .remove('Germany'); // if the item doesn't exist it doesn't do anything
+  countires.remove(
+    'Germany',
+  ); // if the item doesn't exist it doesn't do anything
   countires.first;
   countires.last;
   countires.contains('UK');
   countires.length;
 
-//set operations {Union, intersection, diifference}
+  //set operations {Union, intersection, difference}
   var euCountires = {'Italy', 'UK', 'Russia'};
   var asianCountires = {'India', 'China', 'Russia'};
   print(euCountires.union(asianCountires));
   print(euCountires.intersection(asianCountires));
+  // this returns items that are on the first set but not on the second
   print(euCountires.difference(asianCountires));
 
   //iterate

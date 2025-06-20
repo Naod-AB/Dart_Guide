@@ -1,17 +1,14 @@
 //Maps or dictionaries
 void main() {
-  Map<String, dynamic> person = {
-    'name': 'Samuel',
-    'age': 30,
-    'height': 1.80,
-  };
+  Map<String, dynamic> person = {'name': 'David', 'age': 30, 'height': 1.80};
   //reading value
   var name = person['name']; // this is type of dynamic
   print(name);
 
-// as Operator
-  var name2 = person['name']
-      as String; // gives us all the methods for string not just dynamic like:
+  // as Operator
+  var name2 =
+      person['name']
+          as String; // gives us all the methods for string not just dynamic like:
   name2.toUpperCase();
 
   person['age'] = 25; // modifiying
@@ -37,11 +34,7 @@ void main() {
   }
 
   //Exercise
-  const pizzaPrices = {
-    'margherita': 5.5,
-    'pepperoni': 7.5,
-    'vegetarian': 6.5,
-  };
+  const pizzaPrices = {'margherita': 5.5, 'pepperoni': 7.5, 'vegetarian': 6.5};
 
   const order = ['margherita', 'pepperoni', 'special'];
   var total = 0.0;
