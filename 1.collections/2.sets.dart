@@ -3,6 +3,7 @@ void main() {
   var countires = {'Italy', 'UK', 'Russia'};
   countires.elementAt(0); // calling by index in a set
   countires.add('Germany');
+  countires.add('Germany');
   countires.remove(
     'Germany',
   ); // if the item doesn't exist it doesn't do anything

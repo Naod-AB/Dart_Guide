@@ -7,8 +7,8 @@ void main(List<String> args) {
   }
   final inputFile = args.first;
   // print(inputFile);
-// try running this in the terminal by writing dart totals.dart a b c
-// it will print [a,b,c]
+  // try running this in the terminal by writing dart totals.dart a b c
+  // it will print [a,b,c]
 
   final lines = File(inputFile).readAsLinesSync();
   final totalDurationByTag = <String, double>{};
@@ -17,18 +17,15 @@ void main(List<String> args) {
 
   for (var line in lines) {
     final values = line.split(',');
-    final durationStr =
-        values[3].replaceAll('"', ''); // change from double quate to single
-
-    final duration = double.parse(durationStr);
+    // change from double quate to single
+    final durationStr = values[3].replaceAll('"', '');
     final tag = values[5].replaceAll('"', '');
+    final duration = double.parse(durationStr);
 
     final prevTotal = totalDurationByTag[tag];
-    if (prevTotal == null) {
-      totalDurationByTag[tag] = duration;
-    } else {
-      totalDurationByTag[tag] = prevTotal + duration;
-    }
+    prevTotal == null
+        ? totalDurationByTag[tag] = duration
+        : totalDurationByTag[tag] = prevTotal + duration;
     totalDuration += duration;
   }
 
